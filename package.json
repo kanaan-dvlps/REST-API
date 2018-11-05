@@ -1,0 +1,24 @@
+{
+  "name": "rest_api",
+  "version": "1.0.0",
+  "description": "REST API using MongoDB, Mongoose ODM, Restify, Node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Kanaan Bahmani",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.8",
+    "mongoose-timestamp": "^0.6.0",
+    "restify": "^7.2.2",
+    "restify-errors": "^6.1.1",
+    "restify-jwt-community": "^1.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
